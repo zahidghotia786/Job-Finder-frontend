@@ -1,19 +1,114 @@
-# About Me
 
-Hi! I'm Zahid Ghotia, an expert **MERN stack web app developer** with 3 years of hands-on experience building dynamic and responsive web applications. I specialize in developing with **MongoDB, Express.js, React.js, and Node.js**, creating seamless and user-friendly experiences.
+# Job Finder - Professional Service Booking Platform
 
-This website is designed using **Tailwind CSS** for styling and **React.js** for the frontend, coupled with **MongoDB** and **Node.js** for a fully functional backend, offering a robust and scalable solution.
+## 🌟 Overview  
+**Job Finder** is a MERN stack web application that connects service providers (doctors, teachers, plumbers, etc.) with users who need their services. The platform features role-based access (Admin, Professionals, Users), booking system, reviews & ratings, and a comprehensive admin dashboard.
 
-### Reach Out
+## ✨ Key Features  
 
-Feel free to reach out to me for any queries or information regarding your project. I am available to help you with any aspect of web development, from design to deployment.
+### **For Users**  
+✅ Browse & search professionals by category  
+✅ View expert profiles with ratings & reviews  
+✅ Book appointments/services  
+✅ Leave ratings & comments after service  
+✅ Track booking history  
 
-If you'd like to get in touch for project assistance or just to ask a question, contact me through any of my social accounts:
+### **For Professionals**  
+✅ Create & manage service profiles  
+✅ Accept/reject booking requests  
+✅ View booking calendar  
+✅ Manage availability  
 
-- [Facebook](https://facebook.com/zahidghotia)
-- [WhatsApp](https://wa.me/923082769473)
-- [Instagram](https://instagram.com/zahidghotia)
-- [Fiverr](https://www.fiverr.com/zahidghotia/buying?source=avatar_menu_profile)
-- [Upwork](https://www.upwork.com/freelancers/~015cf8ab317e3e5aa4)
+### **For Admin**  
+📊 Dashboard with analytics  
+👥 User & professional management  
+📝 Content moderation (reviews/services)  
+⚙️ System configuration  
 
-I'm always happy to connect and help with any web development-related tasks!
+## 🛠️ Tech Stack  
+**Frontend:**  
+- React.js  
+- TailwindCSS + Custom CSS  
+- React Router  
+- Context API / Redux  
+
+**Backend:**  
+- Node.js & Express.js  
+- MongoDB (Mongoose)  
+- JWT Authentication  
+
+**Additional:**  
+- Payment Integration (Stripe)  
+- Email Notifications  
+- Calendar Management  
+
+## 🚀 Installation  
+
+```bash
+# Clone repository
+git clone https://github.com/zahidghotia786/Job-Finder-frontend.git
+
+# Install dependencies
+cd job-finder
+npm install
+
+# Configure environment variables
+Create .env file with:
+- MONGODB_URI
+- JWT_SECRET
+- PORT
+- EMAIL_CONFIG
+- PAYMENT_API_KEY
+
+# Run development server
+npm start
+```
+
+
+## 🔧 Project Structure  
+```
+src/
+├── components/      # Reusable UI components
+├── contexts/        # State management
+├── pages/          
+│   ├── admin/       # Admin views
+│   ├── professional/# Professional portal  
+│   └── user/        # User views
+├── services/        # API calls
+└── styles/          # CSS files
+```
+
+## 🌐 Live Demo  
+[View Live Application](#) *(Add your deployment link here)*  
+
+---
+
+# About Me  
+
+Hi! I'm **Zahid Ghotia**, an expert **MERN stack developer** with 3+ years of experience building dynamic web applications. This project showcases my skills in:  
+
+🔹 **Frontend:** React.js, TailwindCSS  
+🔹 **Backend:** Node.js, Express.js, MongoDB  
+🔹 **Authentication:** JWT, Role-based access  
+🔹 **State Management:** Context API/Redux  
+
+## 💼 Professional Services  
+I specialize in:  
+- Full-stack web development  
+- RESTful API design  
+- Database architecture  
+- Responsive UI/UX implementation  
+
+## 📞 Contact Me  
+Let's discuss your project needs:  
+
+📱 [WhatsApp](https://wa.me/923082769473)  
+💼 [Upwork](https://www.upwork.com/freelancers/~015cf8ab317e3e5aa4)  
+🎨 [Fiverr](https://www.fiverr.com/zahidghotia)  
+📸 [Instagram](https://instagram.com/zahidghotia)  
+
+---
+
+## 📜 License  
+MIT License - Feel free to use as a template for your own projects!
+
